@@ -34,7 +34,7 @@ This project demonstrates how data analytics and interactive dashboards can help
 - from datetime import datetime
 
 ## Read the files
-bash ```providers_path = "providers_data.csv"
+``` providers_path = "providers_data.csv"
 receivers_path = "receivers_data.csv"
 food_path      = "food_listings_data.csv"
 claims_path    = "claims_data.csv"
@@ -45,5 +45,5 @@ receivers  = pd.read_csv(receivers_path)
 food       = pd.read_csv(food_path)
 claims     = pd.read_csv(claims_path)
 
-```bash
+```
 
